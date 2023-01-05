@@ -2,11 +2,11 @@
     height: 580px;
 }
 .offer-zone{
-    background-color: rgb(231, 231, 231);
+    background-color: rgb(255, 255, 255);
     display: flex;
 }
 .offerzone-img{
-    height: 500px;
+    height: 280px;
     width: 300px;
     box-shadow: 2px 2px black;
 }
@@ -54,7 +54,6 @@
     font-weight: 400;
     color: white;
     text-align:left;
-
 }
 
 .footer-tag{
@@ -62,7 +61,14 @@
     text-align: center;
     word-spacing: 5px;
 }
+.poster-tagline{
+    font-size: x-large;
+    font-weight: 500;
+    font-family: 'kanit',sans-serif;
+}
+.poster-1{
+    width: 1150px;
+}
 hr{
- 
     background-color: rgb(164, 164, 164);
 }

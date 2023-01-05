@@ -1,0 +1,28 @@
+.poster-tagline{
+    font-size: x-large;
+    font-weight: 500;
+    font-family: 'kanit',sans-serif;
+}
+.card-title{
+    text-align: left;
+    color: grey;
+}
+.card-text{
+    font-size: 20px;
+    text-align: left;
+    font-family: 'kanit',sans-serif;
+}
+.inner-text{
+    font-size: 15px;
+}
+.card-body{
+border: 1px solid black;  
+font-family: 'kanit',sans-serif;  
+}
+#card-btn{
+    text-align: left;
+    font-family: 'kanit',sans-serif;
+}
+.gap{
+    margin-top: 50px;
+}
