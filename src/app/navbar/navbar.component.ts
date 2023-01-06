@@ -9,4 +9,6 @@ import { Component } from '@angular/core';
 
 export class NavbarComponent {
 
+//properties
+public date = new Date();
 }
