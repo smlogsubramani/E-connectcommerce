@@ -12,15 +12,16 @@ nav{
     border: 2px solid rgb(206, 206, 206);
 }
 .nav-item{
-    font-size: large;
-    font-weight: 300;
+    font-size: larger;
+    font-weight: 500;
     padding: 10px;
     font-family: 'Kanit', sans-serif;
+
 }
 
 .nav-item .nav-link:hover{
-    background-color: rgb(212, 71, 71);
-    color: rgb(255, 255, 255);
+    /* background-color: rgb(255, 255, 255); */
+    color: rgb(224, 22, 22);
     border-radius: 10px;
 }
 .form-control{
