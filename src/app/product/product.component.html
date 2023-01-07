@@ -13,17 +13,20 @@
   <div class="container">
     <div class="gap"></div> 
     <div class="row">
-        <div class="col">
+        <div class="col-md-4" *ngFor="let description of data">
             <div class="card" style="width: 18rem;">
-                <img class="card-img-top" src="assets/images/carosel.jpg" alt="Card image cap">
+                <img class="card-img-top" src={{description.image}} alt="Card image cap">
                 <div class="card-body">
-                  <h5 class="card-title">Sony pq2702 Headphone</h5>
-                  <p class="card-text">$100<span class="inner-text">onwards</span></p>
+                  <h5 class="card-title">{{description.brand}}</h5>
+                  <p class="card-text">${{description.prize}}<span class="inner-text">onwards</span></p>
                   <p class="inner-text">Free delivery</p>
                   <a href="#" id="card-btn" class="btn btn-danger">Add to cart</a>
+                
                 </div>
             </div>
+            <div class="gap"></div>
         </div>
+        <
     </div>
   </div>
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
