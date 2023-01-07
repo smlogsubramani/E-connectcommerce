@@ -72,3 +72,20 @@
 hr{
     background-color: rgb(164, 164, 164);
 }
+.contact{
+    border: 1px solid black;
+    display: flexbox;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    word-spacing: 5px;
+}
+
+.contact:hover{
+    background-color: rgb(215, 88, 88);
+    color: white;
+    
+}
+.contact-info{
+    word-spacing: 10px;
+}
