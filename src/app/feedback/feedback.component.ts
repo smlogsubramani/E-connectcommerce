@@ -6,5 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./feedback.component.css']
 })
 export class FeedbackComponent {
-
+  logmessage(value:any){
+    console.log(value);
+  }
 }

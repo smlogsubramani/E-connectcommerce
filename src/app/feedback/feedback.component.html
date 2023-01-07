@@ -30,14 +30,11 @@
                 <div class="col-md-1"></div>
                 <div class="col-md-5">
                     <div class="feedback-right">
-                        <form action="">
+                        <form action="" #input="ngForm">
                                 <br>
-                            <input class="inputs-user" type="text" placeholder="Name"><br>
-                            <!-- <input class="inputs-user" type="email" placeholder="E-mail"><br>
-                            <input class="inputs-user" type="number" placeholder="Phone number"><br> -->
-                            <input class="inputs-user" type="text" placeholder="Feedback..."><br><br>
-                            
-                            <button class="inputs-user-submit">Submit</button>
+                            <input #input class="inputs-user" type="text" placeholder="Name" name="name"ngModel><br>
+                            <input #input class="inputs-user" type="text" placeholder="Feedback..." name="feedback" ngModel><br><br>
+                            <button (click)="logmessage(input.value)" class="inputs-user-submit">Submit</button>
                         </form>
                     </div>
                 </div>
