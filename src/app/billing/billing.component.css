@@ -1,0 +1,11 @@
+.poster-tagline{
+    font-size: x-large;
+    font-weight: 700;
+    font-family: 'kanit',sans-serif;
+}
+.gap{
+    margin-top: 40px;
+}
+table, th, td {
+    border:1px solid black;
+  }
