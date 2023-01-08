@@ -16,4 +16,5 @@ export class ProductComponent {
     {"image":"assets/images/carosel.jpg","brand":"Silk saree","prize":"700"}
     // {"brand":"Silk saree","prize":"700"}
   ];
+
 }

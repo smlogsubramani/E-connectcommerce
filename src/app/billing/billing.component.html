@@ -25,15 +25,10 @@
                   <th>Prize</th>
                   <th>Quantity</th>
                 </tr>
-                <tr>
-                  <td>Alfreds Futterkiste</td>
-                  <td>Maria Anders</td>
-                  <td>Germany</td>
-                </tr>
-                <tr>
-                  <td>Centro comercial Moctezuma</td>
-                  <td>Francisco Chang</td>
-                  <td>Mexico</td>
+                <tr *ngFor="let productdata of datum">
+                  <td>{{productdata.product}}</td>
+                  <td>{{productdata.prize}}</td>
+                  <td>{{productdata.quantity}}</td>
                 </tr>
               </table>
         </div>
@@ -42,7 +37,7 @@
             <div class="col-md-9"></div>
             <div class="col-md-3">
             <label> Total </label>
-            <input type="number">
+            <input type="text" value="" > 
             </div>
             
         </div>
