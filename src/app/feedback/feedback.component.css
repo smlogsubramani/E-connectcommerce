@@ -44,3 +44,16 @@
     color: white;
     background-color: rgb(220, 61, 61);
 }
+
+
+
+
+@media only screen and (max-width: 600px) {
+    .feedback-tagline{
+        font-size: x-large;
+    }
+    .inputs-user ,.inputs-user-submit{
+        width: 284px;
+    }
+
+  }

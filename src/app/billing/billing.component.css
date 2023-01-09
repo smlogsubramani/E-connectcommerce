@@ -9,3 +9,12 @@
 table, th, td {
     border:1px solid black;
   }
+
+  @media only screen and (max-width: 600px) {
+
+    .dotted-line{
+        display: none;
+        text-align: center;
+    }
+
+  }

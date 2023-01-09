@@ -8,8 +8,8 @@ import { Component } from '@angular/core';
 export class BillingComponent {
   public datum =[
     {"product":"Sony","prize":"100","quantity":"5"},
-    {"product":"Sony","prize":"100","quantity":"5"},
-    {"product":"Sony","prize":"100","quantity":"5"}
+    {"product":"skullcandy","prize":"500","quantity":"2"},
+    {"product":"Boat ","prize":"300","quantity":"3"}
   ]
 
   public prize ="600";

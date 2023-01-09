@@ -35,7 +35,7 @@
      transform: translate(-50%, -50%);
      -ms-transform: translate(-50%, -50%);
      color: rgb(255, 255, 255);
-     text-shadow: 4px 3px black;
+     text-shadow: 2px 2px black;
      font-family: 'Kanit', sans-serif;
      font-size: 40px;
      font-weight: 600;
@@ -65,6 +65,7 @@
     font-size: x-large;
     font-weight: 700;
     font-family: 'kanit',sans-serif;
+    text-align: center;
 }
 .poster-1{
     width: 1150px;
@@ -89,3 +90,31 @@ hr{
 .contact-info{
     word-spacing: 10px;
 }
+.differnce{
+    color: rgb(229, 80, 80);
+}
+
+/* media query */
+@media only screen and (max-width: 600px) {
+    .btn{
+        top: 95%;
+        left: 55%;
+        width: 50%;
+    }
+    .land-content{
+        left: 30%;
+        display: none;
+    }
+    .dotted-line{
+        display: none;
+    }
+    .poster-tagline{
+        text-align: center;
+    }
+    .poster-1{
+        display: none;
+    }
+    .poster-tagline.main{
+        display: none;
+    }
+  }
